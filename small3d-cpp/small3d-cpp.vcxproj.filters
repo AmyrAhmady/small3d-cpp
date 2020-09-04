@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Vector\Vector.cpp">
+      <Filter>Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix\Matrix.cpp">
+      <Filter>Matrix</Filter>
+    </ClCompile>
+    <ClCompile Include="Vertex\Vertex.cpp">
+      <Filter>Vertex</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform\Transform.cpp">
+      <Filter>Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Trapezoid\Trapezoid.cpp">
+      <Filter>Trapezoid</Filter>
+    </ClCompile>
+    <ClCompile Include="Window\Window.cpp">
+      <Filter>Window</Filter>
+    </ClCompile>
+    <ClCompile Include="World\World.cpp">
+      <Filter>World</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vector\Vector.hpp">
+      <Filter>Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix\Matrix.hpp">
+      <Filter>Matrix</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex\Vertex.hpp">
+      <Filter>Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform\Transform.hpp">
+      <Filter>Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="common.hpp" />
+    <ClInclude Include="Trapezoid\Trapezoid.hpp">
+      <Filter>Trapezoid</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.hpp" />
+    <ClInclude Include="Window\Window.hpp">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="World\World.hpp">
+      <Filter>World</Filter>
+    </ClInclude>
+    <ClInclude Include="Textures\Bricks.hpp">
+      <Filter>Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="Textures\Obama.hpp">
+      <Filter>Textures</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Matrix">
+      <UniqueIdentifier>{27082e91-3262-4c10-a5eb-90d7a3f24b47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vector">
+      <UniqueIdentifier>{cf7dc13f-74c6-4806-abad-835fccdef81d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vertex">
+      <UniqueIdentifier>{8e683dd5-0131-4c46-b453-326c41537a99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Transform">
+      <UniqueIdentifier>{2705fa5b-964c-4124-ac37-0318bb5a7ce4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Trapezoid">
+      <UniqueIdentifier>{b715aa65-9507-4807-bf78-53c5a1c38af8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Window">
+      <UniqueIdentifier>{e0a2d440-2197-4fdc-bd53-bd875914c983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="World">
+      <UniqueIdentifier>{3ba0852f-594a-4fb1-be08-2d3925e06ea5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Textures">
+      <UniqueIdentifier>{a57e4c31-7eca-4781-9bb6-bb94da3d22b1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
